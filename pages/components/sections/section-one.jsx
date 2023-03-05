@@ -4,7 +4,7 @@ export default function sectionOne() {
             <section className="relative pb-24">
   <div className="relative pt-24">
     <div className="hidden lg:block absolute top-0 right-0 w-1/2 pt-24 xl:pt-14">
-      <img className="block ml-auto max-h-192 ml-10 rounded-lg" src="https://portfolio-tyreesjohnson.s3.us-east-1.amazonaws.com/IMG_2555.jpeg" alt="" />
+      <img className="block ml-auto max-h-192 m-10 rounded-lg" src="https://portfolio-tyreesjohnson.s3.us-east-1.amazonaws.com/IMG_2555.jpeg" alt="" />
     </div>
     <div className="container px-4 mx-auto">
       <div className="flex items-center mb-24 sm:mb-40">
