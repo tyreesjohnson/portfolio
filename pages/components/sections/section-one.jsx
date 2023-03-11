@@ -1,27 +1,24 @@
 export default function sectionOne() {
     return (
-        <div>
-            <section className="relative pb-24">
-  <div className="relative pt-24">
-    <div className="hidden lg:block absolute top-0 right-0 w-1/2 pt-24 xl:pt-14">
-      <img className="block ml-auto max-h-192 m-10 rounded-lg" src="https://portfolio-tyreesjohnson.s3.us-east-1.amazonaws.com/IMG_2555.jpeg" alt="" />
-    </div>
-    <div className="container px-4 mx-auto">
-      <div className="flex items-center mb-24 sm:mb-40">
-        <span className="font-heading text-xl">01</span>
-        <div className="mx-4 rounded-full bg-gray-200 h-1 w-1"></div>
-        <span className="font-heading text-xl">Introduction</span>
+        <div className="bg-green-100">
+        <section className="py-12 relative">
+  <div className="container px-4 mx-auto relative z-10">
+    <div className="py-12 px-6 md:p-20">
+      <div className=" mx-auto text-center">
+        <h1 className="text-4xl md:text-4xl lg:text-6xl font-heading text-white mt-2 mb-6">
+          <span className="text-black">
+          Unite with a global community of gamers who stream and watch together.
+          </span>
+        </h1>
+        <button type="button" class="mt-10 text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 mr-2 mb-2">
+  <svg class="w-4 h-4 mr-2 -ml-1 text-[#626890]" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="ethereum" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"></path></svg>
+  Pay with Ethereum
+</button>
+
       </div>
-      <div className="max-w-md 3xl:max-w-2xl mx-auto lg:mx-0 xl:ml-24">
-        <h1 className="font-heading text-4xl sm:text-4xl md:text-6xl mb-14">Hello, <br/> my name is <br/> Tyrees Johnson</h1>
-        <p className="max-w-sm font-light mb-16 sm:mb-32">The house by the pond cras ornare, some chords for a three moments, like a sense of truth that comes from within. The final game.</p>
-        <a className="inline-block w-full sm:w-auto px-7 py-4 text-center font-medium bg-black hover:bg-indigo-600 text-white rounded transition duration-250" href="#">Download my resume</a>
-      </div>
-    </div>
-    <div className="lg:hidden mt-24">
-      <img className="block ml-auto max-h-192" src="wrexa-assets/images/app-message-background-photo.png" alt=""/>
     </div>
   </div>
+
 </section>
         </div>
     )

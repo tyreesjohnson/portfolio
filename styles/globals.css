@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,5 +8,6 @@
 html,
 body {
   padding: 0;
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Epilogue', sans-serif !important;
 }
+
